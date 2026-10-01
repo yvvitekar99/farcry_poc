@@ -1,0 +1,26 @@
+# Unreal generated / local-only folders
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/Android/*.keystore
+
+# Plugin build output
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# IDE files (regenerate with "Generate Visual Studio project files")
+.vs/
+.vscode/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.sdf
+*.VC.db
+*.opensdf
+*.vsconfig
+
+# OS
+Thumbs.db
+.DS_Store
