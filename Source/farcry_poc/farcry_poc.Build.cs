@@ -18,6 +18,11 @@ public class farcry_poc : ModuleRules
 			"EnhancedInput"
 		});
 
+		PrivateDependencyModuleNames.AddRange(new string[]
+		{
+			"ApplicationCore"
+		});
+
 		// Added as systems come online: AIModule, NavigationSystem, GameplayTasks,
 		// StateTreeModule, GameplayStateTreeModule, UMG.
 	}
